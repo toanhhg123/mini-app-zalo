@@ -12,6 +12,7 @@ import MerchantRootPage from './pages/menu'
 import MerchantOrdersPage from './pages/orders'
 import MerchantOrdersViewPage from './pages/orders.view'
 import MerchantStaffPage from './pages/staff'
+import MerchantTimesheetPage from './pages/timesheet'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -89,6 +90,14 @@ const MyApp = () => {
                     element={
                       <RequireAuth>
                         <MerchantStaffPage />
+                      </RequireAuth>
+                    }
+                  />
+                  <Route
+                    path="/timesheet"
+                    element={
+                      <RequireAuth>
+                        <MerchantTimesheetPage />
                       </RequireAuth>
                     }
                   />

@@ -24,7 +24,7 @@ export function MerchantTabs({ activeTab }: { activeTab: MenuType }) {
         url = Routes.merchant.page()
         break
       case 'timesheet':
-        url = Routes.merchant.orders()
+        url = Routes.merchant.timesheet()
         break
       case 'staff':
         url = Routes.merchant.staff()

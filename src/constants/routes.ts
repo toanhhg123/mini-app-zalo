@@ -6,6 +6,7 @@ export const Routes = {
     page: () => `/`,
     cart: () => `/orders?tab=cart`,
     orders: () => `/orders?tab=orders`,
+    timesheet: () => `/timesheet`,
     info: () => `/info`,
     staff: () => `/staff`,
   },
