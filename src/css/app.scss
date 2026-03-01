@@ -1390,6 +1390,202 @@ html, body {
   }
 }
 
+.staff-info-page {
+  background: #e8edf1;
+}
+
+.staff-info-page__header {
+  height: calc(var(--zaui-safe-area-inset-top, 0px) + 72px);
+  background: #fff;
+  border-bottom: 1px solid #e7ebf0;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.staff-info-page__title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.staff-info-page__back-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #141b27;
+}
+
+.staff-info-page__title {
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.staff-info-page__menu-box {
+  height: 52px;
+  border: 1px solid #d4d8de;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.staff-info-page__menu-btn {
+  width: 54px;
+  height: 52px;
+  border: none;
+  background: transparent;
+  color: #151d2a;
+}
+
+.staff-info-page__menu-divider {
+  width: 1px;
+  height: 28px;
+  background: #d4d8de;
+}
+
+.staff-info-page__content {
+  padding: 12px 0 24px;
+}
+
+.staff-info-card {
+  background: #f7f8fa;
+  border-radius: 20px;
+  padding: 14px 16px 16px;
+}
+
+.staff-info-card__section-title {
+  color: #6a7381;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+}
+
+.staff-info-card__user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.staff-info-card__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  background: #cfe1f8;
+  color: #5695e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.staff-info-card__name {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.staff-info-card__code {
+  margin-top: 4px;
+  font-size: 18px;
+  color: #6f7988;
+}
+
+.staff-info-card__field {
+  padding: 10px 0;
+}
+
+.staff-info-card__label {
+  color: #6d7786;
+  font-size: 18px;
+}
+
+.staff-info-card__value {
+  margin-top: 4px;
+  font-size: 20px;
+  color: #161c28;
+  font-weight: 600;
+}
+
+.staff-info-card__divider {
+  height: 1px;
+  background: #dce2ea;
+}
+
+.staff-info-page__logout {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 18px;
+  background: #f7f8fa;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #d71f1f;
+}
+
+@media (max-width: 430px) {
+  .staff-info-page__title {
+    font-size: 20px;
+  }
+
+  .staff-info-page__menu-box {
+    height: 44px;
+    border-radius: 22px;
+  }
+
+  .staff-info-page__menu-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .staff-info-card {
+    border-radius: 16px;
+    padding: 12px 12px 14px;
+  }
+
+  .staff-info-card__section-title {
+    font-size: 15px;
+  }
+
+  .staff-info-card__avatar {
+    width: 54px;
+    height: 54px;
+  }
+
+  .staff-info-card__name {
+    font-size: 22px;
+  }
+
+  .staff-info-card__code {
+    font-size: 16px;
+  }
+
+  .staff-info-card__label {
+    font-size: 14px;
+  }
+
+  .staff-info-card__value {
+    margin-top: 2px;
+    font-size: 16px;
+  }
+
+  .staff-info-page__logout {
+    height: 56px;
+    border-radius: 16px;
+    font-size: 17px;
+  }
+}
+
 
 @tailwind base;
 @tailwind components;
