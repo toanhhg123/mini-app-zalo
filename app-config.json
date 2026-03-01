@@ -1,0 +1,20 @@
+{
+  "app": {
+    "title": "testapp",
+    "textColor": "black",
+    "statusBar": "transparent",
+    "actionBarHidden": true,
+    "hideAndroidBottomNavigationBar": true,
+    "hideIOSSafeAreaBottom": true
+  },
+  "debug": false,
+  "pages": [],
+  "listSyncJS": [
+    "assets/index.1.0.0.module.js"
+  ],
+  "listAsyncJS": [],
+  "listCSS": [],
+  "template": {
+    "name": "zaui-menu"
+  }
+}
