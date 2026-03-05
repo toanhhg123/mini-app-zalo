@@ -9,5 +9,6 @@ export const Routes = {
     timesheet: () => `/timesheet`,
     info: () => `/info`,
     staff: () => `/staff`,
+    management: () => `/management`,
   },
 }

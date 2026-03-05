@@ -234,7 +234,7 @@ export default function MerchantTimesheetPage() {
           </main>
         </PageContainer>
       </Page>
-      <MerchantTabs activeTab="timesheet" />
+      <MerchantTabs activeTab="stock-check" />
     </MerchantLayout>
   )
 }

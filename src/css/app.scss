@@ -92,6 +92,7 @@ html, body {
 
 .zaui-bottom-navigation-item {
   color: #627184;
+  min-width: 0;
 }
 .zaui-bottom-navigation-item-active {
   color: var(--color-primary);
@@ -104,8 +105,20 @@ html, body {
   background: #fff;
 }
 
+.zaui-bottom-navigation-item .zaui-bottom-navigation-item-icon {
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+}
+
 .zaui-bottom-navigation-item-label {
-  font-size: 11px;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: -0.1px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .zaui-btn-primary {

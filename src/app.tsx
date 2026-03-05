@@ -8,6 +8,7 @@ import { Routes } from './constants/routes'
 import { isAuthenticated } from './modules/auth/auth'
 import MerchantInfoPage from './pages/info'
 import LoginPage from './pages/login'
+import MerchantManagementPage from './pages/management'
 import MerchantRootPage from './pages/menu'
 import MerchantOrdersPage from './pages/orders'
 import MerchantOrdersViewPage from './pages/orders.view'
@@ -90,6 +91,14 @@ const MyApp = () => {
                     element={
                       <RequireAuth>
                         <MerchantStaffPage />
+                      </RequireAuth>
+                    }
+                  />
+                  <Route
+                    path="/management"
+                    element={
+                      <RequireAuth>
+                        <MerchantManagementPage />
                       </RequireAuth>
                     }
                   />
